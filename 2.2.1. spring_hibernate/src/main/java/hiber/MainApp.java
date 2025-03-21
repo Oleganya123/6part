@@ -21,6 +21,11 @@ public class MainApp {
       Car car3 = new Car("BMW", 789);
       Car car4 = new Car("Audi", 101);
 
+      userService.addCar(car1);
+      userService.addCar(car2);
+      userService.addCar(car3);
+      userService.addCar(car4);
+
       User user1 = new User("User1", "Lastname1", "user1@mail.ru");
       User user2 = new User("User2", "Lastname2", "user2@mail.ru");
       User user3 = new User("User3", "Lastname3", "user3@mail.ru");
